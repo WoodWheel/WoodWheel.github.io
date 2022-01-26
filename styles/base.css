@@ -20,7 +20,7 @@ body {
   
 .header {
   text-align: center;
-  padding: 32px;
+  padding-top: 32px;
 }
   
 .row {
@@ -83,7 +83,21 @@ body {
 
 .logo{
   margin-top: 20px;
-  width: 15%;
+  width: 70%;
+}
+
+@media screen and (min-width: 550px) {
+  .logo{
+    margin-top: 20px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .logo{
+    margin-top: 20px;
+    width: 30%;
+  }
 }
 
 /**Botones RRSS**/
