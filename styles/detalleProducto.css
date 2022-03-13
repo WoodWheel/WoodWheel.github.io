@@ -107,6 +107,23 @@ html, body {
     padding: 12px 30px;
     transition: all .5s;
   }
+
+  .cart-btn-sold {
+    display: inline-block;
+    background-color: var(--colorPrincipal);
+    border-radius: 6px;
+    font-size: 16px;
+    color: var(--negro);;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+    pointer-events: none;
+  }
+
   .cart-btn:hover {
+    background-color: var(--colorPrincipalOscurecido);
+  }
+
+  .cart-btn-sold:hover {
     background-color: var(--colorPrincipalOscurecido);
   }
