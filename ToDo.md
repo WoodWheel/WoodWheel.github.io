@@ -6,7 +6,7 @@
 - [ ] Centrar verticalmente en el centro las columnas de la galería
 - [ ] Añadir contenido "About Us"
 - [ ] Añadir contenido "Home"
-- [ ] Arreglar cabecera Home
+- [ ] Arreglar cabecera Home (Encuadre a "WoodWheel" descentrado)
 - [ ] Sustituir cabecera Home por GIF
 - [x] Añadir reset CSS
 - [ ] Dejar todos los colores del CSS como custom properties
