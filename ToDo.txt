@@ -1,9 +1,0 @@
-1. Arreglar estéticamente la paleta de colores de la barra del menú
-2. Centrar correctamente la imagen del logo
-3. Diferenciar las galerías de Trabajo y Merch
-4. Centrar verticalmente en el centro las columnas de la galería
-5. Añadir contenido "About Us"
-6. Añadir contenido "Home"
-7. Arreglar cabecera Home
-8. Sustituir cabecera Home por GIF
-9. Añadir reset CSS
