@@ -1,8 +1,13 @@
 /**Root**/
-
 :root {
   --colorPrincipal: #CCCCCC;
+  --activo: #ccc2c2;
+  --encima: rgb(44, 44, 44);
+  --blanco: white;
+  --fondo: rgb(53, 53, 53);
+  --texto: #ddd;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -135,17 +140,18 @@
 /**Menú**/
 
 .nav{
-  color:#ddd;
+  color: var(--colorPrincipal);
   list-style:none;
   margin:0;
   padding:0;
   top: 0;
   text-align:center;
-  background-color: #282E34;
-  padding:50px 50px;
+  background-color: var(--fondo);
+  padding:20px 20px;
   overflow: hidden;
   font-size: 20px;
 }
+
 .nav li{
   display:inline;
   padding-left: 15px;
@@ -154,22 +160,21 @@
 .nav a{
   display:inline-block;
   padding:10px;
-  color: white;
+  color: var(--blanco);
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: var(--encima);
 }
 
 .active {
-  background-color: #DDDDDD;
+  background-color: var(--activo);;
 }
 
 .chiquito{
   width:30px;
-  padding: 0px;
 }
 
 .imagen{
@@ -191,6 +196,17 @@ body {
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #282E34;
 }
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 
 .subtitulo{
   color: var(--colorPrincipal);
