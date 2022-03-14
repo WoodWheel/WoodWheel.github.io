@@ -1,3 +1,139 @@
+/**Root**/
+
+:root {
+  --colorPrincipal: #CCCCCC;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+/**Parallax**/
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.parallax-1 {
+  /* The image used */
+  background-image: url("../rsc/bg/0eaf12db398bb414cf63d9a6fc4fda9a.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  /* The image used */
+  background-image: url("../rsc/bg/thumb2-4k-black-asphalt-background-black-stones-grunge-backgrounds-black-asphalt.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3 {
+  /* The image used */
+  background-image: url("../rsc/bg/0eaf12db398bb414cf63d9a6fc4fda9a.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #282E34;
+}
+
+.caption span.border {
+  background-color: #282E34;
+  color: #fff;
+  font-size: 100px;
+  padding: 10px;
+}
+
+.caption span.segundo {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+  padding: 18px;
+  letter-spacing: 10px;
+}
+  
+.parallax-1, .parallax-2, .parallax-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoSmall{
+  width: 60%;
+}
+
+@media screen and (min-width: 550px) {
+  .logoSmall{
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .logoSmall{
+    width: 20%;
+  }
+}
+
+.newsletter{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+.centrado{
+  text-align:center;
+}
+
+.relativo{
+  position:relative;
+}
+
+.separador{
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+/**Menú**/
+
 .nav{
   color:#ddd;
   list-style:none;
@@ -6,7 +142,7 @@
   top: 0;
   text-align:center;
   background-color: #282E34;
-  padding:20px 20px;
+  padding:50px 50px;
   overflow: hidden;
   font-size: 20px;
 }
@@ -33,22 +169,27 @@ li a:hover {
 
 .chiquito{
   width:30px;
+  padding: 0px;
 }
 
-/**Cuerpo y Header**/
+.imagen{
+  float:left;
+  margin: 0;
+  padding: 0;
+}
 
-:root {
-  --colorPrincipal: #CCCCCC;
+.imagen2{
+  float:right;
+  margin: 0;
+  padding: 0;
 }
-* {
-    box-sizing: border-box;
-}
-  
+
+/**Cuerpo**/
+
 body {
   margin: 0;
   font-family: 'Trebuchet MS', sans-serif;
-  background-image: url(../rsc/bg/thumb2-4k-black-asphalt-background-black-stones-grunge-backgrounds-black-asphalt.jpeg);
-  background-color: var(--colorPrincipal);
+  background-color: #282E34;
 }
 
 .subtitulo{
@@ -116,25 +257,6 @@ body {
   transition: transform .2s;
   filter: grayscale(0%);
   transform: scale(1.015);
-}
-
-.logo{
-  margin-top: 20px;
-  width: 70%;
-}
-
-@media screen and (min-width: 550px) {
-  .logo{
-    margin-top: 20px;
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .logo{
-    margin-top: 20px;
-    width: 30%;
-  }
 }
 
 /**Botones RRSS**/
