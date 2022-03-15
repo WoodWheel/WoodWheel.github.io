@@ -1,7 +1,7 @@
 # Lista de Tareas Pendientes
 
 - [x] Arreglar estéticamente la paleta de colores de la barra del menú
-- [ ] Centrar correctamente la imagen del logo en el menú
+- [x] Centrar correctamente la imagen del logo en el menú
 - [x] Diferenciar las galerías de Trabajo y Merch
 - [x] Renombrar y reclasificar las imágenes según su categoría
     - [x] Establecer un formato de nomenclatura
@@ -26,3 +26,6 @@
 - [x] Galería cuadrada arriba
 - [x] Logos de cabecera dejan de redirigir
 - [x] Arreglar márgenes desiguales en la galería
+- [x] Añadir comentarios al HTML autoexplicativos
+- [ ] Añadir comentarios autoexplicativos y reordenar el CSS en más documentos
+- [ ] Añadir comentarios autoexplicativos en JS

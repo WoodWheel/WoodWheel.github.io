@@ -74,7 +74,10 @@
 }
 
 .caption span.border {
-  /*background-color: #282E34;*/
+  /*
+  Recuadro de color gris del fondo del logo
+  background-color: #282E34;
+  */
   color: #fff;
   font-size: 100px;
   padding: 10px;
@@ -150,6 +153,9 @@
   padding:20px 20px;
   overflow: hidden;
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav li{
