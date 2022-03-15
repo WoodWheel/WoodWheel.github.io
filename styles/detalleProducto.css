@@ -101,7 +101,6 @@ html, body {
   font-weight: 300;
   color: var(--colorPrincipal);
   margin-right: 20px;
-  padding-top: 20px;
 }
   
 .cart-btn {
@@ -113,7 +112,6 @@ html, body {
   text-decoration: none;
   padding: 12px 30px;
   transition: all .5s;
-  padding-top: 20px;
 }
 
 .cart-btn-sold {
@@ -126,7 +124,6 @@ html, body {
   padding: 12px 30px;
   transition: all .5s;
   pointer-events: none;
-  padding-top: 20px;
 }
 
 .cart-btn:hover {

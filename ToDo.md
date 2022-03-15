@@ -32,3 +32,4 @@
 - [x] Creación del CSS base y común para todas las páginas
 - [x] Arreglar espaciado de la descripción del producto
 - [x] Arreglar redirecciones a la página de producto
+- [x] Arreglar el texto descentrado del botón de anuncio
