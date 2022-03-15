@@ -22,3 +22,6 @@
 - [x] Textos de los menús en Mayúscula
 - [x] Títulos de las páginas cambiados
     - [ ] Cambiar el logo del menú a blanco
+- [x] Padding entre la cabecera y la galería añadido
+- [x] Galería cuadrada arriba
+- [x] Logos de cabecera dejan de redirigir
