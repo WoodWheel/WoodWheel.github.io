@@ -7,7 +7,7 @@
     - [x] Establecer un formato de nomenclatura
 - [x] Centrar verticalmente en el centro las columnas de la galería
 - [x] Añadir contenido "About Us"
-- [ ] Añadir contenido "Home"
+- [x] Añadir contenido "Home"
 - [x] Arreglar cabecera Home (Encuadre a "WoodWheel" descentrado)
 - [ ] Sustituir cabecera Home por GIF
 - [x] Añadir reset CSS
@@ -27,5 +27,8 @@
 - [x] Logos de cabecera dejan de redirigir
 - [x] Arreglar márgenes desiguales en la galería
 - [x] Añadir comentarios al HTML autoexplicativos
-- [ ] Añadir comentarios autoexplicativos y reordenar el CSS en más documentos
-- [ ] Añadir comentarios autoexplicativos en JS
+- [x] Añadir comentarios autoexplicativos y reordenar el CSS en más documentos
+- [x] Añadir comentarios autoexplicativos en JS
+- [x] Creación del CSS base y común para todas las páginas
+- [x] Arreglar espaciado de la descripción del producto
+- [x] Arreglar redirecciones a la página de producto
