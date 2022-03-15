@@ -4,7 +4,7 @@
 - [ ] Centrar correctamente la imagen del logo
 - [ ] Diferenciar las galerías de Trabajo y Merch
 - [ ] Renombrar y reclasificar las imágenes según su categoría
-- [ ] \(Optional) Establecer un formato de nomenclatura
+    - [ ] Establecer un formato de nomenclatura
 - [x] Centrar verticalmente en el centro las columnas de la galería
 - [ ] Añadir contenido "About Us"
 - [ ] Añadir contenido "Home"
@@ -18,3 +18,7 @@
 - [ ] Crear páginas para todos los proyectos
 - [ ] Crear contenido para todos los proyectos
 - [ ] Crear páginas para todos los productos
+- [x] Eliminamos el fondo azul del logo de WoodWheel en el Landing
+- [x] Textos de los menús en Mayúscula
+- [x] Títulos de las páginas cambiados
+    - [ ] Cambiar el logo del menú a blanco
