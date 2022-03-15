@@ -76,6 +76,19 @@ h3 {
   padding-top: 32px;
   padding-bottom: 50px;
 }
+
+.newsletter{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+.centrado{
+  text-align:center;
+}
+
   
 .row {
   display: -ms-flexbox; /* IE10 */
