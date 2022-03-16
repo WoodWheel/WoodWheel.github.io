@@ -15,8 +15,11 @@
 - [x] Establecer un estilo para h1-h6
 - [x] Devolver el h3 al "Reset"
 - [x] Descargar maquetas de los productos de merch
-- [ ] Crear páginas para todos los proyectos
-- [ ] Crear contenido para todos los proyectos
+- [x] Crear páginas para todos los proyectos
+    - [ ] Poner los captions de todas las páginas
+    - [ ] Cambiar fotos La Brava, Yamaha, La Impala y Enduro 75
+- [x] Crear contenido para todos los proyectos
+    - [ ] Crear contenido para la Vespa PK125 XL 1987
 - [ ] Crear páginas para todos los productos
 - [x] Eliminamos el fondo azul del logo de WoodWheel en el Landing
 - [x] Textos de los menús en Mayúscula
