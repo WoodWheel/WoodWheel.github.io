@@ -67,12 +67,14 @@ body {
     transition: transform .2s;
     filter: grayscale(100%);
     width:100%;
+    background-color: white;
 }
 
 .sale{
     transition: transform .2s;
     filter: grayscale(100%);
     width:100%;
+    background-color: white;
 }
 
 .sale:hover{
